@@ -1,10 +1,13 @@
 package com.betha.daos;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+
 import java.util.List;
 
+
+
 import com.betha.business.Pessoa;
+
 
 public class PessoaDAO {
 	private List<Pessoa> lista;
@@ -36,6 +39,8 @@ public class PessoaDAO {
 		return null;
 	}
 	public ArrayList<Pessoa> listarTodas(){
+		
+	
 		return (ArrayList<Pessoa>) this.lista;
 	}
 }
